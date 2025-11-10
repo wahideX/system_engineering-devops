@@ -1,2 +1,2 @@
-#!/usr/bin/env bash
+ #!/bin/bash
 ls 0x00-shell_basics
