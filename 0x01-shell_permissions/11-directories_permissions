@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod a+x 0x01-shell_permissions
+chmod a+x dir0 | chmod a+x dir1 | chmod a+x dir2
