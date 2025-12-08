@@ -1,2 +1,2 @@
 #!/bin/bash
-export POWER="" DIVIDE="" & echo(($POWER/$DIVIDE\n))
+export POWER="42724" DIVIDE="32" & echo(($POWER/$DIVIDE\n))
