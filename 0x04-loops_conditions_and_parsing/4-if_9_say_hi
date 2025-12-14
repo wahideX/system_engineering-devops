@@ -7,4 +7,5 @@ while [ $i -gt 0 ]; do
   else
     echo "Best School"
   fi
+  i=$((i - 1))
 done
