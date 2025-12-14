@@ -3,5 +3,5 @@
 export i="9"
 while i >= 0; do
   echo "Best School"
-  i =(($i - 1))
+  i=(($i - 1))
 done
