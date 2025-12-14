@@ -3,8 +3,7 @@
 export i=9
 while [ $i -gt 0 ]; do
   echo "Best School"
+  i=$((i - 1))
   if [ $i=0 ]; then
     echo "Hi"
-  fi
-  i=$((i - 1))
 done
