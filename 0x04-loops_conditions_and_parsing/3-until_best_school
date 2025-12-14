@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #a Bash script that displays the phrase “Best School” exactly 10 times.
 export i=9
-while [ $i -le 0 ]; do
+until [ $i -le 0 ]; do
   echo "Best School"
   i=$((i - 1))
 done
