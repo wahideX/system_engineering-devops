@@ -2,10 +2,9 @@
 #a Bash script that displays “Best School” 10 times. However, for the 9th iteration, your script should display “Best School” and then, on a new line, display “Hi”.
 export i=9
 while [ $i -gt 0 ]; do
+  echo "Best School"
   if [ $i=0 ]; then
     echo "Hi"
-  else
-    echo "Best School"
   fi
   i=$((i - 1))
 done
