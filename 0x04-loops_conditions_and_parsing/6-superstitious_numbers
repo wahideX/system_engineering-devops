@@ -7,13 +7,18 @@
     #For all other iterations, only the number should be displayed.
 export i=1
 while [ $i -le 20 ]; do
-  if [ $i -eq 5 ]; then
-    echo "bad luck from China"
-  elif [ $i -eq 10 ]; then
-    echo "bad luck from Japan"
-  elif [ $i -eq 18 ]; then
-    echo "bad luck from Italy"
-  fi
+  case "$i" in
+    5)
+        echo "bad luck from China"
+    ;;
+     case "$i" in
+    5)
+        echo "bad luck from Japan"
+    ;;
+     case "$i" in
+    5)
+        echo "bad luck from Italy"
+    ;;
   echo $i
   i=$((i + 1))
 done
