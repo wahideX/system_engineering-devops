@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 #a Bash script that displays “Best School” 10 times. However, for the 9th iteration, your script should display “Best School” and then, on a new line, display “Hi”.
-export i=9
+export i=10
 while [ $i -ge 0 ]; do
-  if [ $i -eq 0 ]; then
+  if [ $i -eq 1 ]; then
     echo "Hi"
   else
     echo "Best School"
