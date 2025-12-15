@@ -11,12 +11,12 @@ while [ $i -le 20 ]; do
     5)
         echo "bad luck from China"
     ;;
-     case "$i" in
-    5)
+    case "$i" in
+    10)
         echo "bad luck from Japan"
     ;;
-     case "$i" in
-    5)
+    case "$i" in
+    18)
         echo "bad luck from Italy"
     ;;
   echo $i
