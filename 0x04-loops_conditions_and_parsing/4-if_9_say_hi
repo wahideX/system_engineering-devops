@@ -4,6 +4,6 @@ export i=9
 while [ $i -gt 0 ]; do
   echo "Best School"
   i=$((i - 1))
+done
   if [ $i=0 ]; then
     echo "Hi"
-done
