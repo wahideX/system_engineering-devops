@@ -17,7 +17,7 @@ while [ $i -le 20 ]; do
     18)
         echo "bad luck from Italy"
     ;;
-      echo $i
-      i=$((i + 1))
+    echo $i
+    i=$((i + 1))
 done
   
