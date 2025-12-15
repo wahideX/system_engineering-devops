@@ -11,7 +11,7 @@ while [ $i -ge 0 ]; do
   elif [ $i -eq 2 ]; then
     echo "good luck"
   else
-    echo "  Best School"
+    echo "Best School"
   fi
   i=$((i - 1))
 done
