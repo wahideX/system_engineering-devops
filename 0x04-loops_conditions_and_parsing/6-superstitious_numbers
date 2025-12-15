@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+#a Bash script that displays numbers from 1 to 20. For specific iterations, it should display additional “bad luck” messages:
+
+    #Displays 4 and then “bad luck from China” for the 4th loop iteration.
+    #Displays 9 and then “bad luck from Japan” for the 9th loop iteration.
+    #Displays 17 and then “bad luck from Italy” for the 17th loop iteration.
+    #For all other iterations, only the number should be displayed.
+export i=1
+while [ $i -lt 20 ]; do
+  if [ $i -eq 5 ]; then
+    echo "bad luck from China"
+  elif [ $i -eq 10 ]; then
+    echo "bad luck from Japan"
+  elif [ $i -eq 18 ]; then
+    echo "bad luck from Italy"
+  fi
+  echo $i
+  i=$((i + 1))
+done
+  
