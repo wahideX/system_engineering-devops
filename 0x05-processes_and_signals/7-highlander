@@ -1,2 +1,11 @@
 #!/usr/bin/env bash
-#
+# a Bash script named 7-highlander that displays:
+
+    #To infinity and beyond indefinitely.
+    #With a sleep 2 in between each iteration.
+    #I am invincible!!! when it receives a SIGTERM signal. This means the script should not terminate immediately upon receiving SIGTERM, but instead print this message and continue its loo
+trap 'echo "I am invincible!!! "COMMAND_TO_RUN"' SIGTERM
+while true; do
+  echo "To infinity and beyond"
+  sleep 2
+done
