@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 #a Bash script that stops the 4-to_infinity_and_beyond process.
-SIGTERM (15) "$(pgrep -f 4-to_infinity_and_beyond)"
+SIGKILL (9) "$(pgrep -f 4-to_infinity_and_beyond)"
