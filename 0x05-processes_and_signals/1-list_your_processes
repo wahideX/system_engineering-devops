@@ -5,4 +5,4 @@
     #Include processes without a TTY: A TTY (teletypewriter) is essentially a terminal. Many background services and system processes run without being attached to a terminal. Your output must include these.
     #Display in a user-oriented format: The output should be human-readable and provide relevant information like user, PID, CPU/memory usage, and the command itself.
     #Show process hierarchy: The output should visually represent which processes are children of other processes (e.g., using indentation).
-ps -f
+ps -aux
