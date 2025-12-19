@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 #a Bash script that displays the PID, along with the process name, of all processes whose name contains the word bash. The output for each process should be on a new line, in the format PID process_name.
-ps -eo pid,args | grep bash | grep -v bash
+ps -eo pid,comm | pgrep bash | grep -v bash
