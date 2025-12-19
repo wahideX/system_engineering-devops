@@ -9,3 +9,9 @@ while true; do
   echo "To infinity and beyond"
   sleep 2
 done
+
+PID=$(pgrep -f 7-highlander)
+
+if [ -n "$PID" ]; then
+    kill -15 "$PID"
+fi
