@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # a Bash script that continuously displays the phrase “To infinity and beyond” indefinitely.
-export i = 0
+export i=0
 while [ $i -ge 0 ]; do
   echo "To infinity and beyond"
   sleep 2
